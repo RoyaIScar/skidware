@@ -1,1 +1,1 @@
-# skidware
+ a no effort universal script for shitty the streets "remakes" aka copy paste places using the leaked outdated ts code, script made by scartesu, ill find out if you have skidripped from this so you have been warned
