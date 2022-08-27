@@ -84,18 +84,18 @@ game.Players.LocalPlayer.CharacterAdded:connect(loopdisable)
         if(checkcaller()) then return oldNameCall(self,...) end
         
         local arguements =  {...}
-        local method = getnamecallmethod():lower()
+        local method = getnamecallmethod()
     
          if (self.Name == "lIIl" and table.find(banargs,arguements[1])) then
               return task.wait(9e9)
          end
 
         
-        if (method == "kick" and self == getchar()) then
+        if (method == "Kick" and self == getchar()) then
             return task.wait(9e9)
-        elseif (method == "breakjoints" and self == getchar()) then
+        elseif (method == "BreakJoints" and self == getchar()) then
             return task.wait(9e9)
-        elseif (method == "destroy" and self == getchar()) then
+        elseif (method == "Destroy" and self == getchar()) then
              return task.wait(9e9)
         end
     
